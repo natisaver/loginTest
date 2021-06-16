@@ -7,7 +7,7 @@ you can use Robo 3T for GUI Interface to manage MongoDB
 
 ```bash
 npm init
-npm i express ejs mongoose mongoose-encryption dotenv bcrypt
+npm i express ejs mongoose mongoose-encryption dotenv md5 bcrypt
 npm i -g nodemon
 ```
 
