@@ -3,7 +3,7 @@
 cd to project directory
 Use the package manager [npm](https://nodejs.org/en/download/) to install modules.
 
-you can use Robo 3T for GUI Interface
+you can use Robo 3T for GUI Interface to manage MongoDB
 
 ```bash
 npm init
