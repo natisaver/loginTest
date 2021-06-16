@@ -7,6 +7,12 @@ you can use Robo 3T for GUI Interface
 
 ```bash
 npm init
-npm i express ejs mongoose
+npm i express ejs mongoose mongoose-encryption dotenv
 npm i -g nodemon
+```
+
+.gitignore
+```bash
+.env
+/node_modules
 ```
