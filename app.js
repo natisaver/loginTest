@@ -64,9 +64,9 @@ passport.serializeUser(function(user, done) {
 passport.use(new GoogleStrategy({
     clientID: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
-    callbackURL: "http://www.example.com/auth/google/callback",
+    callbackURL: "http://localhost:3000/auth/google/secrets",
 	userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo" //google+ deprecated
-	},
+  },
   function(accessToken, refreshToken, profile, cb) {
 	console.log(profile);
 	//here if googleid doesnt exist in db, we create and store
