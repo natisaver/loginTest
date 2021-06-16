@@ -9,7 +9,7 @@ Use the package manager [npm](https://nodejs.org/en/download/) to install module
 
 >To Use Google Auth,
 http://www.passportjs.org/packages/passport-google-oauth20/
-In google create a new project -> credentials -> create ClientOAuth ID -> JS Origin can put localhost && URI localhost/auth/google/secrets
+In google create a new project -> credentials -> create ClientOAuth ID -> For Testing: JS Origin == localhost:3000 && URI == localhost:3000/auth/google/secrets
 Also update the env file with the "Client ID" and "Client Secret"
 
 This project includes google authentication to login and and allows you to submit secrets that can be seen by everyone anonymously.
