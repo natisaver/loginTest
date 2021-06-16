@@ -3,6 +3,8 @@
 cd to project directory
 Use the package manager [npm](https://nodejs.org/en/download/) to install modules.
 
+this project includes google authentication to login and and allows you to submit secrets that can be seen by everyone anonymously.
+
 you can use Robo 3T for GUI Interface to manage MongoDB
 
 ```bash
